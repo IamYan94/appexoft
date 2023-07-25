@@ -1,0 +1,23 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: black;
+    
+    
+}
+body{
+    background-color:grey;
+}
+h1:hover{
+    font-family: 'Lumanosimo', cursive;
+    background-color: red;
+}
+ul{
+    background-color: aqua;
+    font-weight: lighter;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    font-weight: bolder}
