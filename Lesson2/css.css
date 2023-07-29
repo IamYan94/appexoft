@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: aqua;
+}
+.form {
+  margin: 0;
+  padding: 0;
+}
+.form-control {
+  margin: 0;
+  padding: 10px;
+  background-color: aliceblue;
+}
+.form-control.username {
+  font-size: 40px;
+  color: bisque;
+  font-weight: 700;
+  display: block;
+  margin-top: 20px;
+}
+.name-input {
+  padding: 5px 10px 3px;
+  border: 1px solid brown;
+}
+#submit-btn {
+  bottom: 0px;
+  background-color: black;
+  padding: 10px 20px;
+}
