@@ -1,0 +1,18 @@
+.form {
+  max-width: 500px;
+  max-height: min-content;
+  background-color: #a5d7e8;
+  padding: 110px;
+  border-radius: 20px;
+  margin: 500px;
+  background: linear-gradient(45deg, rgb(74, 193, 74), rgb(228, 201, 201));
+  text-align: center;
+}
+html {
+  background: url(https://img.tsn.ua/cached/292/tsn-8c5f6b23d1211bb14030cc3abd4583f7/thumbs/x/bf/74/1d750cdae19c5075e0123ec455ee74bf.jpeg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
