@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+    margin-top: 55px;
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+
+            @media screen and (max-width:469px) {
+                display: none;
+            }
+
+            li {
+                font-size: 20px;
+            }
+        }
+
+
+
+        .header-btn {
+            border-radius: 5px;
+            border: 2px solid black;
+            padding: 17px 57px;
+            background-color: white;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            font-size: 24px;
+        }
+
+
+    }
+
+
+    .header-content {
+        margin-top: 101px;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+        @media screen and (max-width:469px) {
+            flex-direction: column-reverse;
+        }
+
+        .header-title {
+            font-size: 64px;
+            font-weight: 600;
+            line-height: 80px;
+
+        }
+
+        .header-subtitle {
+            color: gray;
+            font-size: 24px;
+            font-weight: 400;
+            max-width: 632px;
+            margin-top: 40px;
+        }
+
+        .header-content-btn {
+            border: 0;
+            border-radius: 15px;
+            background: gray;
+            padding: 32px 117px;
+            font-size: 36px;
+            font-weight: 400;
+            color: white;
+            cursor: pointer;
+            margin-top: 61px;
+        }
+    }
+
+    .skills-title {
+        text-align: center;
+        margin-top: 103px;
+        font-size: 48px;
+        font-weight: 600;
+    }
+
+    .left-item {
+        padding: 35px 22px 0 23px;
+        background-color: #f5f5f5;
+        max-width: 435px;
+        border-radius: 10px;
+    }
+
+    .item-title {
+        color: black;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 4px 0 5px;
+    }
+
+    .item-description {
+        max-width: 347px;
+        color: grey;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .item-button {
+        border-radius: 5px;
+        background: black;
+        padding: 17px 64px;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: inherit;
+        margin: 36px 0 92px;
+    }
+
+    .left-item-margin {
+        padding-left: 20px;
+    }
+
+    .flex-wrapper-row {
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+
+        @media screen and (max-width:469px) {
+            flex-direction: column;
+        }
+
+    }
+
+    .responsive {
+        @media screen and (max-width:469px) {
+            width: 400px;
+        }
+    }
+}
+
+/*# sourceMappingURL=index.css.map */

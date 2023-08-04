@@ -11,12 +11,12 @@
 html {
   background: url(https://img.tsn.ua/cached/292/tsn-8c5f6b23d1211bb14030cc3abd4583f7/thumbs/x/bf/74/1d750cdae19c5075e0123ec455ee74bf.jpeg)
     no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  background-size: cover;
   background-size: cover;
 }
-::placeholder {
+input::placeholder {
   color: white;
 }
 input:focus {
