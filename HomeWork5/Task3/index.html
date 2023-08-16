@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сalculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="Calc">
+      <h1>Сalculator</h1>
+      <form id="calculator-form">
+        <input
+          class="N1"
+          type="number"
+          id="num1"
+          placeholder="First numb"
+          required
+        />
+        <input
+          class="N2"
+          type="number"
+          id="num2"
+          placeholder="Second numb"
+          required
+        />
+        <select id="operation">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <button type="button" onclick="calculate()">quantify</button>
+        <p id="result">Result:</p>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

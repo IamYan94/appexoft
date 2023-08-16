@@ -1,0 +1,21 @@
+.Calc {
+  max-width: 500px;
+  max-height: min-content;
+  background-color: #041216;
+  padding: 110px;
+  border-radius: 20px;
+  margin: 500px;
+  background: linear-gradient(45deg, rgb(0, 0, 0), rgb(228, 201, 201));
+  text-align: center;
+}
+.N1 {
+  margin-left: -60px;
+}
+html {
+  background: url(https://kesha.com.ua/image/cache/catalog/products/img1/big/obyemnyye-vkladyshi-tsifry-schet-frukty-KH-274-750x750.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  background-size: cover;
+}

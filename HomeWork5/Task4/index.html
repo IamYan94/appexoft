@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Перевірка пароля</title>
+  </head>
+  <body>
+    <h2>Введіть пароль:</h2>
+
+    <input type="password" id="passwordInput" />
+    <button onclick="checkPassword()">Перевірити</button>
+
+    <p id="result"></p>
+
+    <script>
+      function checkPassword() {
+        var enteredPassword = document.getElementById("passwordInput").value;
+        var correctPassword = "секрет";
+
+        if (enteredPassword === correctPassword) {
+          document.getElementById("result").textContent = "Вірно!";
+        } else {
+          document.getElementById("result").textContent = "Невірний пароль!";
+        }
+      }
+    </script>
+  </body>
+</html>
