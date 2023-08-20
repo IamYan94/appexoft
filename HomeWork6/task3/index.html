@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task6</title>
+  </head>
+  <body>
+    <h1>Users List</h1>
+    <ul id="user-list"></ul>
+
+    <script>
+      async function getUsers() {
+        const url = "https://jsonplaceholder.typicode.com/users";
+
+        try {
+          const response = await fetch(url);
+
+          if (response.ok) {
+            const usersData = await response.json();
+            const userList = document.getElementById("user-list");
+
+            usersData.forEach((user) => {
+              const { id, name, email } = user;
+              const listItem = document.createElement("li");
+              listItem.textContent = `User ID: ${id}, Name: ${name}, Email: ${email}`;
+              userList.appendChild(listItem);
+            });
+          } else {
+            console.log(`Error:Не вдалося отримати дані: ${response.status})`);
+          }
+        } catch (error) {
+          console.error("Виникла помилка:", error);
+        }
+      }
+
+      getUsers();
+    </script>
+  </body>
+</html>
