@@ -1,0 +1,40 @@
+.data-example-container {
+    padding: 220px 20px 20px 20px;
+    background-image: url('https://img.lovepik.com/free-png/20220128/lovepik-school-student-png-image_402003531_wh860.png');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 58px;
+    font-weight: bolder;
+    color: rgb(1, 173, 173);
+}
+
+.paragraph {
+    font-size: 24px;
+    font-weight: bolder;
+    color: rgb(1, 173, 173);
+}
+
+.button-container {
+    display: flex;
+}
+
+.button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(1, 173, 173);
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}

@@ -1,0 +1,51 @@
+.window-container {
+    padding: 220px 20px 20px 20px;
+    background-image: url('https://cdn.27.ua/sc--media--prod/default/d0/60/6c/d0606c78-c61c-4335-bc24-d8e926a6ae0c.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: rgb(207, 201, 189);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header1 {
+    font-family: fantasy;
+    margin-left: 350px;
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgb(30, 25, 13);
+
+    &:hover {
+        color: rgb(239, 220, 115);
+        cursor: not-allowed;
+    }
+
+}
+
+.direk {
+    color: rgb(122, 16, 16);
+}
+
+.rig {
+    color: green;
+}
+
+.date {
+    color: yellow;
+}
+
+.prod {
+    color: blue;
+}
+
+.name {
+    color: white;
+
+    &:hover {
+        color: red;
+        cursor: grab;
+    }
+}
